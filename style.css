@@ -25,13 +25,30 @@ video {
 
 /* Utils */
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .clearfix::after {
     content: '';
     clear: both;
     display: table;
+}
+
+.box {
+    min-height: 50px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: #006cfa;
+    color: white;
+    line-height: 25px;
+}
+
+.second-box {
+    min-height: 50px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #006cfa;
+    background-color: #00e165;
+    color: white;
+    line-height: 25px;
 }
